@@ -4,107 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3511d9ed-f2ab-4ee3-96a1-3d643bfee65a" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eazybytes/eazyschool/config/ProjectSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eazybytes/eazyschool/config/ProjectSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eazybytes/eazyschool/controller/PublicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eazybytes/eazyschool/controller/PublicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eazybytes/eazyschool/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eazybytes/eazyschool/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/EazyschoolApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/annotation/FieldsValueMatch$List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/annotation/FieldsValueMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/annotation/PasswordValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/aspects/LoggerAspects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/audit/AuditAwareImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/config/ProjectSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/constants/EazySchoolConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/controller/ContactController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/controller/DashboardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/controller/GlobalExceptionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/controller/HolidaysController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/controller/PublicController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/model/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/model/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/model/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/model/Holiday$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/model/Holiday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/model/Roles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/repository/AddressRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/repository/ContactRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/repository/HolidayRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/repository/PersonRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/repository/RolesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/service/ContactSevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/service/PersonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/validations/FieldsValueMatchValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/eazyschool/validations/PasswordStrengthValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eazyschool_data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eazyschool_schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/css/style-starter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/banner3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/bg3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/blog1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/blog2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/blog3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/c1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/c6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/dribbble.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/icon-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/icon-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/team1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/team2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/team3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/team4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/testi1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/testi2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/testi3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/theme-change.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/courses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/holidays.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/messages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" />
-    </list>
+    <list default="true" id="3511d9ed-f2ab-4ee3-96a1-3d643bfee65a" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Spring/EazySchoolApp"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Spring/EazySchoolApp&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Spring\EazySchoolApp\src\main\java\com\eazybytes\eazyschool" />
