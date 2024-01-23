@@ -18,7 +18,7 @@ public class ProjectSecurityConfig {
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
 
         http.csrf((csrf) -> csrf.ignoringRequestMatchers("/saveMsg")
-                        .ignoringRequestMatchers("/public/register")
+                        .ignoringRequestMatchers("/public/**")
                 )
                 .authorizeHttpRequests((requests) -> requests.requestMatchers("/dashboard").authenticated())
                 .authorizeHttpRequests((requests) -> {
@@ -32,7 +32,7 @@ public class ProjectSecurityConfig {
             ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)requests.requestMatchers("/login/**")).permitAll();
             ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)requests.requestMatchers("/logout")).permitAll();
             ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)requests.requestMatchers("/saveMsg")).permitAll();
-            ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)requests.requestMatchers("/public/register/**")).permitAll();
+            ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)requests.requestMatchers("/public/**")).permitAll();
             ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)requests.requestMatchers("/displayMessages")).hasRole("ADMIN");
             ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)requests.requestMatchers("/closeMsg/**")).hasRole("ADMIN");
 
